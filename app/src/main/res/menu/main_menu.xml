@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group  android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_home"
+            android:title="@string/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_cita"
+            android:title="@string/nav_cita"
+            android:icon="@drawable/ic_baseline_access_time_filled_24"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_venta"
+            android:title="@string/nav_venta"
+            android:icon="@drawable/ic_baseline_attach_money_24"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_nosotros"
+            android:title="@string/nav_nosotros"
+            android:icon="@drawable/ic_baseline_people_24"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_webs"
+            android:title="@string/nav_webs"
+            android:icon="@drawable/ic_baseline_web_24"/>
+    </group>
+
+    <item
+        android:title="@string/nav_perfil">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/nav_logout"
+                    android:title="@string/nav_logout"
+                    android:icon="@drawable/ic_baseline_reply_24"/>
+            </group>
+        </menu>
+
+    </item>
+</menu>

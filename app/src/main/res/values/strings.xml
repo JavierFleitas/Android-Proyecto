@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Koksal Cars</string>
+    <string name="navigation_drawer_open">Abre navigation drawer</string>
+    <string name="navigation_drawer_close">Cierra navigation drawer</string>
+    <string name="et_correo">Correo electrónico</string>
+    <string name="et_password">Contraseña</string>
+    <string name="b_entrar">ENTRAR</string>
+    <string name="b_registrarse">REGISTRARSE</string>
+    <string name="b_resetpassword">¿OLVIDASTE LA CONTRASEÑA?</string>
+    <string name="et_nombre">Introduzca su nombre completo</string>
+    <string name="et_correo2">Introduzca su correo electrónico</string>
+    <string name="et_password2">Introduzca una contraseña</string>
+    <string name="b_volver">¿YA TIENE UNA CUENTA?</string>
+    <string name="b_enviar">ENVIAR</string>
+    <string name="b_volver2">VOLVER</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_perfil">Perfil</string>
+    <string name="nav_logout">Cerrar Sesión</string>
+    <string name="nav_cita">Pedir Cita</string>
+    <string name="nav_venta">Vende tu coche</string>
+    <string name="nav_nosotros">Sobre nosotros</string>
+    <string name="tv_presentacion5">PEDIR CITA</string>
+    <string name="tv_nombre">Nombre completo</string>
+    <string name="tv_dni">DNI</string>
+    <string name="tv_telefono">Teléfono</string>
+    <string name="tv_correo">Correo electrónico de contacto</string>
+    <string name="b_restablecer">RESTABLECER</string>
+    <string name="tv_ubicacion">DONDE NOS ENCONTRAMOS</string>
+    <string name="tv_venta">COMPRAMOS TU COCHE</string>
+    <string name="tv_nosotros">Sobre Koksal Cars</string>
+    <string name="tv_nosotros2">Nuestro objetivo es la de ayudarte a elegir el automóvil que mejor pueda satisfacer tus necesidades</string>
+    <string name="tv_descripcion">Koksal Cars es un portal centrado en los contenidos y servicios transaccionales para la compra-venta de vehículos nuevos y de ocasión.</string>
+    <string name="tv_modelo">Marca y modelo del vehículo</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="nav_webs">Webs Oficiales</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:background="@drawable/fondonegro"
+    android:gravity="bottom"
+    android:padding="12dp">
+
+    <ImageView
+        android:layout_width="114dp"
+        android:layout_height="95dp"
+        android:src="@drawable/logokoksal2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Koksal Cars"
+        android:textSize="30sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Venta de coches nuevos y de ocasión"
+        android:textSize="15sp"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".Registro">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="348dp"
+        android:layout_height="240dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logokoksal2" />
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="@string/et_nombre"
+        android:inputType="textPersonName"
+        android:paddingStart="12dp"
+        android:paddingLeft="12dp"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <EditText
+        android:id="@+id/et_correo"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="@string/et_correo2"
+        android:inputType="textPersonName"
+        android:paddingStart="12dp"
+        android:paddingLeft="12dp"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="320dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="390dp"
+        android:ems="10"
+        android:drawableStart="@drawable/ic_baseline_vpn_key_24"
+        android:drawablePadding="12dp"
+        android:background="@drawable/custom_input"
+        android:paddingStart="12dp"
+        android:hint="@string/et_password2"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="342dp"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:paddingLeft="12dp" />
+
+    <Button
+        android:id="@+id/b_registrarse"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/boton_redondeado"
+        android:text="@string/b_registrarse"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/b_volver"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="510dp"
+        android:onClick="Volver"
+        android:background="@drawable/boton_redondeado"
+        android:text="@string/b_volver"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+</RelativeLayout>
